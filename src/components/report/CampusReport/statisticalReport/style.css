@@ -1,0 +1,25 @@
+.heading { 
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.sub-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.table-heading {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.table-footer {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    color: black;
+}

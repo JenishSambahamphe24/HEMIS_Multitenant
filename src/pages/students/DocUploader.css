@@ -1,0 +1,132 @@
+.uploader-container {
+  width: 100%;
+  max-width: 200px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.uploader-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2B6EB5;
+}
+
+.uploader-area {
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px dashed #d0d7de;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+.uploader-area.drag-over {
+  background-color: #f6f8fa;
+  border-color: #0969da;
+}
+
+.uploader-icon {
+  font-size: 26px;
+  color: #656d76;
+  margin-bottom: 4px;
+}
+
+.uploader-text {
+  color: #656d76;
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+.uploader-subtext {
+  color: #8b949e;
+  font-size: 10px;
+}
+
+.preview-container {
+  position: relative;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 6px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.preview-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.pdf-preview {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
+.remove-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.file-name {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 44px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.error-message {
+  color: #d1242f;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.change-button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px 16px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #24292f;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.change-button:hover {
+  background-color: #f6f8fa;
+}
+
+.hidden-input {
+  display: none;
+}
